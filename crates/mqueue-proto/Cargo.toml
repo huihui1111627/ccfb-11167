@@ -1,0 +1,13 @@
+[package]
+name = "mqueue-proto"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+tokio = { workspace = true }
+serde = { workspace = true }
+bincode = { workspace = true }
+thiserror = { workspace = true }
+bytes = { workspace = true }
+mqueue-storage = { workspace = true }

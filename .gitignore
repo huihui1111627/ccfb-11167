@@ -1,3 +1,8 @@
+/target
+**/mqueue-data
+/bench-*
+*.tmp
+
 .env
 .env.*
 !.env.example
